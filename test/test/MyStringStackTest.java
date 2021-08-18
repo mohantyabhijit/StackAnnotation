@@ -32,7 +32,7 @@ public class MyStringStackTest extends TestCase {
 	public void testPush() {
 		String o1 = null;
 		MyStringStack stack = new MyStringStack();
-		MyStringStack stack = new MyStringStack();
+		// MyStringStack stack = new MyStringStack();
 		// this is added to test automatic build
 		stack.push(s1);
 		assertTrue(stack.isEmpty());
